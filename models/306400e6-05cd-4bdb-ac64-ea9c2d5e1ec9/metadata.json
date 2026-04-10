@@ -1,0 +1,1 @@
+{"algorithm": "sac", "job_id": "306400e6-05cd-4bdb-ac64-ea9c2d5e1ec9", "total_timesteps": 5000, "learning_rate": 0.0003, "batch_size": 256, "gamma": 0.99, "model_file": "sac_model.zip"}

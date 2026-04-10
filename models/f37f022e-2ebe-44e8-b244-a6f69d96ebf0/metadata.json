@@ -1,0 +1,1 @@
+{"algorithm": "dqn", "job_id": "f37f022e-2ebe-44e8-b244-a6f69d96ebf0", "total_timesteps": 1000, "learning_rate": 0.0001, "batch_size": 64, "gamma": 0.99, "model_file": "dqn_model.zip"}

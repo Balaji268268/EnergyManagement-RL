@@ -1,0 +1,284 @@
+{
+  "306400e6-05cd-4bdb-ac64-ea9c2d5e1ec9": {
+    "job_id": "306400e6-05cd-4bdb-ac64-ea9c2d5e1ec9",
+    "algorithm": "sac",
+    "status": "completed",
+    "progress": [
+      {
+        "timestep": 500,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1000,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1500,
+        "mean_reward": -42484.329159,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2000,
+        "mean_reward": -42484.329159,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2500,
+        "mean_reward": -42484.329159,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 3000,
+        "mean_reward": -28548.4226935,
+        "std_reward": 13935.9064655
+      },
+      {
+        "timestep": 3500,
+        "mean_reward": -28548.4226935,
+        "std_reward": 13935.9064655
+      },
+      {
+        "timestep": 4000,
+        "mean_reward": -28548.4226935,
+        "std_reward": 13935.9064655
+      },
+      {
+        "timestep": 4500,
+        "mean_reward": -24096.679079333335,
+        "std_reward": 13004.192981085904
+      },
+      {
+        "timestep": 5000,
+        "mean_reward": -24096.679079333335,
+        "std_reward": 13004.192981085904
+      }
+    ],
+    "model_path": "models\\306400e6-05cd-4bdb-ac64-ea9c2d5e1ec9\\sac_model.zip",
+    "summary": {
+      "total_energy_cost": 2131.620901749961,
+      "total_export_revenue": 0.057104406742058515,
+      "net_cost": 2131.5637973432185,
+      "peak_grid_import": 67.5095488330512,
+      "avg_grid_import": 35.382658498362495,
+      "total_reward": -3616.6939427608777,
+      "total_violations": 0.0,
+      "total_degradation": 19.83405562294157,
+      "renewable_ratio": 0.29357983144764394,
+      "avg_soc_pct": 40.57696171426804,
+      "steps": 335
+    },
+    "error": null,
+    "config": {
+      "total_timesteps": 5000,
+      "learning_rate": 0.0003,
+      "batch_size": 256,
+      "gamma": 0.99
+    }
+  },
+  "94aa8c11-5526-4f8d-9213-6ed1d13c27fb": {
+    "job_id": "94aa8c11-5526-4f8d-9213-6ed1d13c27fb",
+    "algorithm": "dqn",
+    "status": "completed",
+    "progress": [
+      {
+        "timestep": 500,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1000,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1500,
+        "mean_reward": -132044.934431,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2000,
+        "mean_reward": -132044.934431,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2500,
+        "mean_reward": -132044.934431,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 3000,
+        "mean_reward": -139565.268325,
+        "std_reward": 7520.333893999996
+      },
+      {
+        "timestep": 3500,
+        "mean_reward": -139565.268325,
+        "std_reward": 7520.333893999996
+      },
+      {
+        "timestep": 4000,
+        "mean_reward": -139565.268325,
+        "std_reward": 7520.333893999996
+      },
+      {
+        "timestep": 4500,
+        "mean_reward": -98685.69738366669,
+        "std_reward": 58137.61480556147
+      },
+      {
+        "timestep": 5000,
+        "mean_reward": -98685.69738366669,
+        "std_reward": 58137.61480556147
+      }
+    ],
+    "model_path": "models\\94aa8c11-5526-4f8d-9213-6ed1d13c27fb\\dqn_model.zip",
+    "summary": {
+      "total_energy_cost": 2143.8142678638446,
+      "total_export_revenue": 0.0,
+      "net_cost": 2143.8142678638446,
+      "peak_grid_import": 62.327592616358274,
+      "avg_grid_import": 35.41488555855251,
+      "total_reward": -3297.310587202031,
+      "total_violations": 0.0,
+      "total_degradation": 0.0,
+      "renewable_ratio": 0.29357983144764394,
+      "avg_soc_pct": 50.0,
+      "steps": 335
+    },
+    "error": null,
+    "config": {
+      "total_timesteps": 5000,
+      "learning_rate": 0.0001,
+      "batch_size": 64,
+      "gamma": 0.99
+    }
+  },
+  "b060189e-84ba-4a95-ba0e-cc3747040de7": {
+    "job_id": "b060189e-84ba-4a95-ba0e-cc3747040de7",
+    "algorithm": "ppo",
+    "status": "completed",
+    "progress": [
+      {
+        "timestep": 500,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1000,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1500,
+        "mean_reward": -84186.803262,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2000,
+        "mean_reward": -84186.803262,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 2500,
+        "mean_reward": -84186.803262,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 3000,
+        "mean_reward": -80055.5958615,
+        "std_reward": 4131.207400500003
+      },
+      {
+        "timestep": 3500,
+        "mean_reward": -80055.5958615,
+        "std_reward": 4131.207400500003
+      },
+      {
+        "timestep": 4000,
+        "mean_reward": -80055.5958615,
+        "std_reward": 4131.207400500003
+      },
+      {
+        "timestep": 4500,
+        "mean_reward": -74544.03618133333,
+        "std_reward": 8493.08522309228
+      },
+      {
+        "timestep": 5000,
+        "mean_reward": -74544.03618133333,
+        "std_reward": 8493.08522309228
+      },
+      {
+        "timestep": 5500,
+        "mean_reward": -74544.03618133333,
+        "std_reward": 8493.08522309228
+      },
+      {
+        "timestep": 6000,
+        "mean_reward": -72870.1292455,
+        "std_reward": 7906.027178331993
+      }
+    ],
+    "model_path": "models\\b060189e-84ba-4a95-ba0e-cc3747040de7\\ppo_model.zip",
+    "summary": {
+      "total_energy_cost": 2150.5625166021364,
+      "total_export_revenue": 0.0,
+      "net_cost": 2150.5625166021364,
+      "peak_grid_import": 62.327592616358274,
+      "avg_grid_import": 35.54921391676147,
+      "total_reward": -16126.362491978593,
+      "total_violations": 12817.012318270281,
+      "total_degradation": 0.225,
+      "renewable_ratio": 0.29357983144764394,
+      "avg_soc_pct": 93.978808553945,
+      "steps": 335
+    },
+    "error": null,
+    "config": {
+      "total_timesteps": 5000,
+      "learning_rate": 0.0003,
+      "batch_size": 64,
+      "gamma": 0.99
+    }
+  },
+  "f37f022e-2ebe-44e8-b244-a6f69d96ebf0": {
+    "job_id": "f37f022e-2ebe-44e8-b244-a6f69d96ebf0",
+    "algorithm": "dqn",
+    "status": "completed",
+    "progress": [
+      {
+        "timestep": 500,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      },
+      {
+        "timestep": 1000,
+        "mean_reward": 0.0,
+        "std_reward": 0.0
+      }
+    ],
+    "model_path": "models\\f37f022e-2ebe-44e8-b244-a6f69d96ebf0\\dqn_model.zip",
+    "summary": {
+      "total_energy_cost": 2125.614390601672,
+      "total_export_revenue": 0.0,
+      "net_cost": 2125.614390601672,
+      "peak_grid_import": 73.99618254102478,
+      "avg_grid_import": 35.49844800945589,
+      "total_reward": -40019.33829170196,
+      "total_violations": 36600.98684210526,
+      "total_degradation": 8.034703947368424,
+      "renewable_ratio": 0.29357983144764394,
+      "avg_soc_pct": 88.0287706205813,
+      "steps": 335
+    },
+    "error": null,
+    "config": {
+      "total_timesteps": 1000,
+      "learning_rate": 0.0001,
+      "batch_size": 64,
+      "gamma": 0.99
+    }
+  }
+}

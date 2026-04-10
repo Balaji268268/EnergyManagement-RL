@@ -1,0 +1,1 @@
+{"algorithm": "ppo", "job_id": "b060189e-84ba-4a95-ba0e-cc3747040de7", "total_timesteps": 5000, "learning_rate": 0.0003, "batch_size": 64, "gamma": 0.99, "n_steps": 2048, "model_file": "ppo_model.zip"}

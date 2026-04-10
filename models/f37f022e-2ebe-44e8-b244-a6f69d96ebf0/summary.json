@@ -1,0 +1,1 @@
+{"total_energy_cost": 2125.614390601672, "total_export_revenue": 0.0, "net_cost": 2125.614390601672, "peak_grid_import": 73.99618254102478, "avg_grid_import": 35.49844800945589, "total_reward": -40019.33829170196, "total_violations": 36600.98684210526, "total_degradation": 8.034703947368424, "renewable_ratio": 0.29357983144764394, "avg_soc_pct": 88.0287706205813, "steps": 335}
